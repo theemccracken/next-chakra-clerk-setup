@@ -1,6 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## This code has been modified to include Chakra UI and Clerk authentication.
+## To deploy on Vercel it is necessary to learn how to add environment keys. Then you must paste in your Clerk secret keys.
+## You must first:
 
-This code has been modified to include Chakra UI and Clerk authentication.
+```bash
+npm create-next-app@latest
+```
+Follow this set up:
+```bash
+✔ What is your project named? project-namehere
+✔ Would you like to use TypeScript? "No"
+✔ Would you like to use ESLint? "Yes"
+✔ Would you like to use Tailwind CSS? "No"
+✔ Would you like to use `src/` directory? "Yes"
+✔ Would you like to use App Router? (recommended) "No"
+✔ Would you like to customize the default import alias? "No"
+```
+Now copy the contents of this GitHub repo into your new repository.
+
+Be sure to edit the readme and remove the license if appropriate.
+
+## Below is the copy of the Nextjs default readme
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
@@ -38,5 +59,3 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-To deploy on Vercel it is necessary to learn how to add environment keys. Then you must paste in your Clerk secret keys.
