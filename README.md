@@ -15,6 +15,15 @@ Follow this set up:
 ✔ Would you like to use App Router? (recommended) "No"
 ✔ Would you like to customize the default import alias? "No"
 ```
+Move into your project directory in the terminal.
+
+Now we need to install both dependencies:
+```bash
+npm i @chakra-ui/react @chakra-ui/next-js @emotion/react @emotion/styled framer-motion
+
+npm install @clerk/nextjs
+```
+
 Now copy the contents of this GitHub repo into your new repository.
 
 Be sure to edit the readme and remove the license if appropriate.
