@@ -1,5 +1,4 @@
 ## This code has been modified to include Chakra UI and Clerk authentication.
-## To deploy on Vercel it is necessary to learn how to add environment keys. Then you must paste in your Clerk secret keys.
 ## You must first:
 
 ```bash
@@ -25,6 +24,21 @@ npm install @clerk/nextjs
 ```
 
 Now copy the contents of this GitHub repo into your new repository.
+
+## You must visit clerk.com, create an account, create an application, and set up log in types (pref no email) to get your secret keys.
+
+## Keys go in .local.env
+.local.env
+```shell
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
+```
+
+## To deploy on Vercel it is necessary to learn how to add environment keys. Then you must paste in your Clerk secret keys.
 
 Be sure to edit the readme and remove the license if appropriate.
 
